@@ -1,0 +1,6 @@
+framework module Pods_OBST {
+  umbrella header "Pods-OBST-umbrella.h"
+
+  export *
+  module * { export * }
+}
