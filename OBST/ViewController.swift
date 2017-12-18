@@ -17,10 +17,11 @@ class ViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet weak var submitButton             : UIButton!
     @IBOutlet weak var loaderView               : UIView!
     @IBOutlet weak var loaderBgView             : UIView!
+    @IBOutlet var employeeCodeTextField        : UITextField!
     
     //MARK: Instance Variables
     
-    var loader                  : LiquidLoader! = nil
+    var loader                                 : LiquidLoader! = nil
     
     //MARK: View Methods
     override func viewDidLoad() {
@@ -31,11 +32,25 @@ class ViewController: UIViewController,UITextFieldDelegate {
     
     func commonInitialization()
     {
+       
         loaderBgView.isHidden = true
-        loaderBgView.backgroundColor = UIColor(red: (0.0/255.0), green: 0.0/255.0, blue: 0.0/255.0, alpha: 0.7)
+       
         self.submitButton.layer.borderColor = UIColor(red: (232.0/255.0), green: 63.0/255.0, blue: 67.0/255.0, alpha: 1.0).cgColor
         self.submitButton.layer.borderWidth = 1
         self.submitButton.layer.cornerRadius = 5
+        
+        
+        self.employeeCodeTextField.layer.borderColor = UIColor(red: (232.0/255.0), green: 63.0/255.0, blue: 67.0/255.0, alpha: 1.0).cgColor
+        self.employeeCodeTextField.layer.borderWidth = 1
+        self.employeeCodeTextField.layer.cornerRadius = 5
+        
+        self.employeeCodeTextField.attributedPlaceholder = NSAttributedString(string: " Employee Code ",
+                                                                              attributes: [NSForegroundColorAttributeName: UIColor(red: (251.0/255.0), green: 217.0/255.0, blue: 216.0/255.0, alpha: 1.0)])
+        
+        
+        
+        
+        
         
         self.mobileNumberTextField.layer.borderColor = UIColor(red: (232.0/255.0), green: 63.0/255.0, blue: 67.0/255.0, alpha: 1.0).cgColor
         self.mobileNumberTextField.layer.borderWidth = 1
@@ -53,8 +68,16 @@ class ViewController: UIViewController,UITextFieldDelegate {
     
     @IBAction func submitButtonClicked(_ sender: UIButton)
     {
-        loaderBgView.isHidden = false
-        loader.show()
+        //loaderBgView.isHidden = false
+       // loader.show()
+        
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let conformotpVC = storyboard.instantiateViewController(withIdentifier: "OTPVC_Identifier")
+        self.navigationController?.pushViewController(conformotpVC, animated: true)
+        
+        
+        //OTPVC_Identifier
+        
     }
     
 

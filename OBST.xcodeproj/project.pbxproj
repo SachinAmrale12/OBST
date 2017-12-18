@@ -16,9 +16,6 @@
 		5C6DFE681FE4FA5C00C25825 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE621FE4FA5C00C25825 /* NSData+CommonCrypto.m */; };
 		5C6DFE691FE4FA5C00C25825 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE641FE4FA5C00C25825 /* NSString+Base64.m */; };
 		5C6DFE6D1FE4FAB500C25825 /* JNKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE6C1FE4FAB500C25825 /* JNKeychain.m */; };
-		5C6DFE751FE5224400C25825 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE701FE5224400C25825 /* TPKeyboardAvoidingScrollView.m */; };
-		5C6DFE761FE5224400C25825 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE721FE5224400C25825 /* TPKeyboardAvoidingTableView.m */; };
-		5C6DFE771FE5224400C25825 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE741FE5224400C25825 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		5C6DFE881FE54A8C00C25825 /* ArrayEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE7A1FE54A8C00C25825 /* ArrayEx.swift */; };
 		5C6DFE891FE54A8C00C25825 /* CGPointEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE7B1FE54A8C00C25825 /* CGPointEx.swift */; };
 		5C6DFE8A1FE54A8C00C25825 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE7C1FE54A8C00C25825 /* CGRectEx.swift */; };
@@ -38,6 +35,11 @@
 		9C3428F31FDFE94900572A2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3428F11FDFE94900572A2B /* Main.storyboard */; };
 		9C3428F51FDFE94900572A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3428F41FDFE94900572A2B /* Assets.xcassets */; };
 		9C3428F81FDFE94900572A2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3428F61FDFE94900572A2B /* LaunchScreen.storyboard */; };
+		9C8367981FE788CF00CEE3FA /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8367971FE788CF00CEE3FA /* Checkbox.swift */; };
+		9C83679B1FE78B2000CEE3FA /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C83679A1FE78B2000CEE3FA /* OTPViewController.swift */; };
+		9C8367AC1FE794A800CEE3FA /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8367A71FE794A800CEE3FA /* TPKeyboardAvoidingScrollView.m */; };
+		9C8367AD1FE794A800CEE3FA /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8367A91FE794A800CEE3FA /* TPKeyboardAvoidingTableView.m */; };
+		9C8367AE1FE794A800CEE3FA /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8367AB1FE794A800CEE3FA /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,12 +58,6 @@
 		5C6DFE641FE4FA5C00C25825 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 		5C6DFE6B1FE4FAB500C25825 /* JNKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKeychain.h; sourceTree = "<group>"; };
 		5C6DFE6C1FE4FAB500C25825 /* JNKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKeychain.m; sourceTree = "<group>"; };
-		5C6DFE6F1FE5224400C25825 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
-		5C6DFE701FE5224400C25825 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
-		5C6DFE711FE5224400C25825 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
-		5C6DFE721FE5224400C25825 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
-		5C6DFE731FE5224400C25825 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
-		5C6DFE741FE5224400C25825 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		5C6DFE7A1FE54A8C00C25825 /* ArrayEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayEx.swift; sourceTree = "<group>"; };
 		5C6DFE7B1FE54A8C00C25825 /* CGPointEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointEx.swift; sourceTree = "<group>"; };
 		5C6DFE7C1FE54A8C00C25825 /* CGRectEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectEx.swift; sourceTree = "<group>"; };
@@ -83,6 +79,14 @@
 		9C3428F41FDFE94900572A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C3428F71FDFE94900572A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C3428F91FDFE94900572A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8367971FE788CF00CEE3FA /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		9C83679A1FE78B2000CEE3FA /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		9C8367A61FE794A800CEE3FA /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		9C8367A71FE794A800CEE3FA /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		9C8367A81FE794A800CEE3FA /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		9C8367A91FE794A800CEE3FA /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		9C8367AA1FE794A800CEE3FA /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		9C8367AB1FE794A800CEE3FA /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		AF4AED565E650CD0874FF861 /* Pods_OBST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OBST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF66B2CC5499B07A9C9450E /* Pods-OBST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBST.release.xcconfig"; path = "Pods/Target Support Files/Pods-OBST/Pods-OBST.release.xcconfig"; sourceTree = "<group>"; };
 		C630EE2FF501B6188CA2626D /* Pods-OBST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBST.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OBST/Pods-OBST.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,12 +161,12 @@
 		5C6DFE6E1FE5222E00C25825 /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				5C6DFE6F1FE5224400C25825 /* TPKeyboardAvoidingScrollView.h */,
-				5C6DFE701FE5224400C25825 /* TPKeyboardAvoidingScrollView.m */,
-				5C6DFE711FE5224400C25825 /* TPKeyboardAvoidingTableView.h */,
-				5C6DFE721FE5224400C25825 /* TPKeyboardAvoidingTableView.m */,
-				5C6DFE731FE5224400C25825 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
-				5C6DFE741FE5224400C25825 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				9C8367A61FE794A800CEE3FA /* TPKeyboardAvoidingScrollView.h */,
+				9C8367A71FE794A800CEE3FA /* TPKeyboardAvoidingScrollView.m */,
+				9C8367A81FE794A800CEE3FA /* TPKeyboardAvoidingTableView.h */,
+				9C8367A91FE794A800CEE3FA /* TPKeyboardAvoidingTableView.m */,
+				9C8367AA1FE794A800CEE3FA /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				9C8367AB1FE794A800CEE3FA /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
 			);
 			name = ScrollView;
 			sourceTree = "<group>";
@@ -170,6 +174,7 @@
 		5C6DFE781FE54A6400C25825 /* ThirdParty Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9C8367991FE788D300CEE3FA /* checkMark */,
 				5C6DFE791FE54A7200C25825 /* Loader */,
 			);
 			name = "ThirdParty Classes";
@@ -230,6 +235,7 @@
 				5C6DFE571FE4F9C600C25825 /* ServerClasses */,
 				9C3428ED1FDFE94900572A2B /* AppDelegate.swift */,
 				9C3428EF1FDFE94900572A2B /* ViewController.swift */,
+				9C83679A1FE78B2000CEE3FA /* OTPViewController.swift */,
 				5C6DFE5A1FE4FA5B00C25825 /* OBST-Bridging-Header.h */,
 				9C3428F11FDFE94900572A2B /* Main.storyboard */,
 				9C3428F41FDFE94900572A2B /* Assets.xcassets */,
@@ -237,6 +243,14 @@
 				9C3428F91FDFE94900572A2B /* Info.plist */,
 			);
 			path = OBST;
+			sourceTree = "<group>";
+		};
+		9C8367991FE788D300CEE3FA /* checkMark */ = {
+			isa = PBXGroup;
+			children = (
+				9C8367971FE788CF00CEE3FA /* Checkbox.swift */,
+			);
+			name = checkMark;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,23 +392,25 @@
 				5C6DFE681FE4FA5C00C25825 /* NSData+CommonCrypto.m in Sources */,
 				9C3428F01FDFE94900572A2B /* ViewController.swift in Sources */,
 				5C6DFE921FE54A8C00C25825 /* ObjC.swift in Sources */,
-				5C6DFE771FE5224400C25825 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				9C8367981FE788CF00CEE3FA /* Checkbox.swift in Sources */,
+				9C8367AE1FE794A800CEE3FA /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				5C6DFE561FE4F97100C25825 /* DataManager.swift in Sources */,
 				5C6DFE661FE4FA5C00C25825 /* KeyCode.m in Sources */,
-				5C6DFE751FE5224400C25825 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				5C6DFE6D1FE4FAB500C25825 /* JNKeychain.m in Sources */,
 				5C6DFE8B1FE54A8C00C25825 /* CircularGradientLayer.swift in Sources */,
+				9C8367AD1FE794A800CEE3FA /* TPKeyboardAvoidingTableView.m in Sources */,
+				9C83679B1FE78B2000CEE3FA /* OTPViewController.swift in Sources */,
 				5C6DFE941FE54A8C00C25825 /* UIColorEx.swift in Sources */,
 				5C6DFE881FE54A8C00C25825 /* ArrayEx.swift in Sources */,
 				5C6DFE951FE54A8C00C25825 /* UIView+Grow.swift in Sources */,
 				5C6DFE911FE54A8C00C25825 /* LiquittableCircle.swift in Sources */,
 				5C6DFE8D1FE54A8C00C25825 /* LiquidLineEffect.swift in Sources */,
+				9C8367AC1FE794A800CEE3FA /* TPKeyboardAvoidingScrollView.m in Sources */,
 				5C6DFE931FE54A8C00C25825 /* SimpleCircleLiquidEngine.swift in Sources */,
 				5C6DFE901FE54A8C00C25825 /* LiquidUtil.swift in Sources */,
 				5C6DFE671FE4FA5C00C25825 /* NSData+Base64.m in Sources */,
 				5C6DFE651FE4FA5C00C25825 /* AESCrypt.m in Sources */,
 				5C6DFE8C1FE54A8C00C25825 /* LiquidCircleEffect.swift in Sources */,
-				5C6DFE761FE5224400C25825 /* TPKeyboardAvoidingTableView.m in Sources */,
 				5C6DFE8F1FE54A8C00C25825 /* LiquidLoader.swift in Sources */,
 				5C6DFE891FE54A8C00C25825 /* CGPointEx.swift in Sources */,
 				5C6DFE541FE4F64B00C25825 /* ServerManager.swift in Sources */,
@@ -527,7 +543,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BTT36DS6LY;
 				INFOPLIST_FILE = OBST/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = idbiintech.OBST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -545,7 +561,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BTT36DS6LY;
 				INFOPLIST_FILE = OBST/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = idbiintech.OBST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
