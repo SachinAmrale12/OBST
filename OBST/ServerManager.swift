@@ -11,8 +11,8 @@ import Alamofire
 
 class ServerManager: NSObject {
     
-    //  let domainName = "http://10.144.118.20:1919/iBus"
-    let domainName = "http://103.93.44.141:1919/iBus"
+      let domainName = "http://10.144.118.20:1919/iBus"
+   // let domainName = "http://103.93.44.141:1919/iBus"
     // let domainName = "https://ibus.idbibank.co.in/iBusV1"
 
     var afManager : SessionManager!
@@ -68,6 +68,16 @@ class ServerManager: NSObject {
             return afManager
         }
         
+    }
+    
+    func getOTP(empID: String,mobileNo: String,clientId: String,clientSecret: String,completionClouser:@escaping (_ isSuccessful: Bool,_ error: String?,_ result: Any?) -> Void)
+    {
+        let urlString = "\(domainName)/obstreg/otp/" + "{\"custId\":\"\(empID)\",\"mobileNo\":\"\(mobileNo)\",\"clientId\":\"\(clientId)\",\"clientSecret\":\"\(clientSecret)\"}"
+        print(urlString)
+        let url = urlString.addingPercentEscapes(using: .ascii)
+
+        self.webServiceCall(url: url!, completionClouser :completionClouser)
+        // self.webServiceCallWithPining(url: url!, completionClouser: completionClouser)
     }
     
     

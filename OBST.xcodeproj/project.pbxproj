@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		38121EC37CA35D4C21F4D1E0 /* Pods_OBST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4AED565E650CD0874FF861 /* Pods_OBST.framework */; };
+		5C08CB3E1FE7C6A8004A2524 /* MTPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08CB3D1FE7C6A8004A2524 /* MTPopUp.swift */; };
+		5C08CB401FE7CDF0004A2524 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08CB3F1FE7CDF0004A2524 /* Alert.swift */; };
 		5C6DFE541FE4F64B00C25825 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE531FE4F64B00C25825 /* ServerManager.swift */; };
 		5C6DFE561FE4F97100C25825 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE551FE4F97100C25825 /* DataManager.swift */; };
 		5C6DFE651FE4FA5C00C25825 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE5C1FE4FA5C00C25825 /* AESCrypt.m */; };
@@ -43,6 +45,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C08CB3D1FE7C6A8004A2524 /* MTPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTPopUp.swift; sourceTree = "<group>"; };
+		5C08CB3F1FE7CDF0004A2524 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		5C6DFE531FE4F64B00C25825 /* ServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
 		5C6DFE551FE4F97100C25825 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		5C6DFE5A1FE4FA5B00C25825 /* OBST-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OBST-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -113,6 +117,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5C08CB3C1FE7C6A8004A2524 /* MTPopupClass */ = {
+			isa = PBXGroup;
+			children = (
+				5C08CB3D1FE7C6A8004A2524 /* MTPopUp.swift */,
+			);
+			path = MTPopupClass;
+			sourceTree = "<group>";
+		};
 		5C6DFE571FE4F9C600C25825 /* ServerClasses */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +186,7 @@
 		5C6DFE781FE54A6400C25825 /* ThirdParty Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5C08CB3C1FE7C6A8004A2524 /* MTPopupClass */,
 				9C8367991FE788D300CEE3FA /* checkMark */,
 				5C6DFE791FE54A7200C25825 /* Loader */,
 			);
@@ -233,6 +246,7 @@
 				5C6DFE781FE54A6400C25825 /* ThirdParty Classes */,
 				5C6DFE581FE4F9DC00C25825 /* ObjectiveC Classes */,
 				5C6DFE571FE4F9C600C25825 /* ServerClasses */,
+				5C08CB3F1FE7CDF0004A2524 /* Alert.swift */,
 				9C3428ED1FDFE94900572A2B /* AppDelegate.swift */,
 				9C3428EF1FDFE94900572A2B /* ViewController.swift */,
 				9C83679A1FE78B2000CEE3FA /* OTPViewController.swift */,
@@ -391,6 +405,7 @@
 				5C6DFE691FE4FA5C00C25825 /* NSString+Base64.m in Sources */,
 				5C6DFE681FE4FA5C00C25825 /* NSData+CommonCrypto.m in Sources */,
 				9C3428F01FDFE94900572A2B /* ViewController.swift in Sources */,
+				5C08CB3E1FE7C6A8004A2524 /* MTPopUp.swift in Sources */,
 				5C6DFE921FE54A8C00C25825 /* ObjC.swift in Sources */,
 				9C8367981FE788CF00CEE3FA /* Checkbox.swift in Sources */,
 				9C8367AE1FE794A800CEE3FA /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
@@ -411,6 +426,7 @@
 				5C6DFE671FE4FA5C00C25825 /* NSData+Base64.m in Sources */,
 				5C6DFE651FE4FA5C00C25825 /* AESCrypt.m in Sources */,
 				5C6DFE8C1FE54A8C00C25825 /* LiquidCircleEffect.swift in Sources */,
+				5C08CB401FE7CDF0004A2524 /* Alert.swift in Sources */,
 				5C6DFE8F1FE54A8C00C25825 /* LiquidLoader.swift in Sources */,
 				5C6DFE891FE54A8C00C25825 /* CGPointEx.swift in Sources */,
 				5C6DFE541FE4F64B00C25825 /* ServerManager.swift in Sources */,
