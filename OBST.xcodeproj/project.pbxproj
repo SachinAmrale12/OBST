@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38121EC37CA35D4C21F4D1E0 /* Pods_OBST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4AED565E650CD0874FF861 /* Pods_OBST.framework */; };
 		5C6DFE541FE4F64B00C25825 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE531FE4F64B00C25825 /* ServerManager.swift */; };
 		5C6DFE561FE4F97100C25825 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE551FE4F97100C25825 /* DataManager.swift */; };
 		5C6DFE651FE4FA5C00C25825 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFE5C1FE4FA5C00C25825 /* AESCrypt.m */; };
@@ -35,11 +34,17 @@
 		9C3428F31FDFE94900572A2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3428F11FDFE94900572A2B /* Main.storyboard */; };
 		9C3428F51FDFE94900572A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3428F41FDFE94900572A2B /* Assets.xcassets */; };
 		9C3428F81FDFE94900572A2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3428F61FDFE94900572A2B /* LaunchScreen.storyboard */; };
+		9C7DD2F21FE8D7640076C729 /* GSNoSelectionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7DD2EF1FE8D7640076C729 /* GSNoSelectionTextField.m */; };
+		9C7DD2F31FE8D7640076C729 /* GSPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7DD2F11FE8D7640076C729 /* GSPasswordInputView.m */; };
+		9C7DD2F51FE8EF250076C729 /* RegistrationSuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7DD2F41FE8EF250076C729 /* RegistrationSuccessVC.swift */; };
+		9C7DD2F71FE8EFA40076C729 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7DD2F61FE8EFA40076C729 /* LoginViewController.swift */; };
 		9C8367981FE788CF00CEE3FA /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8367971FE788CF00CEE3FA /* Checkbox.swift */; };
 		9C83679B1FE78B2000CEE3FA /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C83679A1FE78B2000CEE3FA /* OTPViewController.swift */; };
 		9C8367AC1FE794A800CEE3FA /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8367A71FE794A800CEE3FA /* TPKeyboardAvoidingScrollView.m */; };
 		9C8367AD1FE794A800CEE3FA /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8367A91FE794A800CEE3FA /* TPKeyboardAvoidingTableView.m */; };
 		9C8367AE1FE794A800CEE3FA /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8367AB1FE794A800CEE3FA /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		9C8367B01FE7C5DC00CEE3FA /* setPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8367AF1FE7C5DC00CEE3FA /* setPinViewController.swift */; };
+		CC28E712E489CC9B8AFEE53C /* Pods_OBST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A211C6F39269CB05E595949 /* Pods_OBST.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +77,8 @@
 		5C6DFE851FE54A8C00C25825 /* SimpleCircleLiquidEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCircleLiquidEngine.swift; sourceTree = "<group>"; };
 		5C6DFE861FE54A8C00C25825 /* UIColorEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorEx.swift; sourceTree = "<group>"; };
 		5C6DFE871FE54A8C00C25825 /* UIView+Grow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Grow.swift"; sourceTree = "<group>"; };
+		6A211C6F39269CB05E595949 /* Pods_OBST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OBST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB573D5DB91F6206BA33637 /* Pods-OBST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBST.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OBST/Pods-OBST.debug.xcconfig"; sourceTree = "<group>"; };
 		9C3428EA1FDFE94900572A2B /* OBST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3428ED1FDFE94900572A2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C3428EF1FDFE94900572A2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +86,13 @@
 		9C3428F41FDFE94900572A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C3428F71FDFE94900572A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C3428F91FDFE94900572A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7DD2EE1FE8D7640076C729 /* GSNoSelectionTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSNoSelectionTextField.h; sourceTree = "<group>"; };
+		9C7DD2EF1FE8D7640076C729 /* GSNoSelectionTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSNoSelectionTextField.m; sourceTree = "<group>"; };
+		9C7DD2F01FE8D7640076C729 /* GSPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSPasswordInputView.h; sourceTree = "<group>"; };
+		9C7DD2F11FE8D7640076C729 /* GSPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSPasswordInputView.m; sourceTree = "<group>"; };
+		9C7DD2F41FE8EF250076C729 /* RegistrationSuccessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationSuccessVC.swift; sourceTree = "<group>"; };
+		9C7DD2F61FE8EFA40076C729 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9C7EA0317501E36CE6F69EAE /* Pods-OBST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBST.release.xcconfig"; path = "Pods/Target Support Files/Pods-OBST/Pods-OBST.release.xcconfig"; sourceTree = "<group>"; };
 		9C8367971FE788CF00CEE3FA /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 		9C83679A1FE78B2000CEE3FA /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		9C8367A61FE794A800CEE3FA /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
@@ -87,9 +101,7 @@
 		9C8367A91FE794A800CEE3FA /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
 		9C8367AA1FE794A800CEE3FA /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		9C8367AB1FE794A800CEE3FA /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
-		AF4AED565E650CD0874FF861 /* Pods_OBST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OBST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEF66B2CC5499B07A9C9450E /* Pods-OBST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBST.release.xcconfig"; path = "Pods/Target Support Files/Pods-OBST/Pods-OBST.release.xcconfig"; sourceTree = "<group>"; };
-		C630EE2FF501B6188CA2626D /* Pods-OBST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBST.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OBST/Pods-OBST.debug.xcconfig"; sourceTree = "<group>"; };
+		9C8367AF1FE7C5DC00CEE3FA /* setPinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setPinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,18 +109,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38121EC37CA35D4C21F4D1E0 /* Pods_OBST.framework in Frameworks */,
+				CC28E712E489CC9B8AFEE53C /* Pods_OBST.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		41CAA209F1B877BCDC087326 /* Pods */ = {
+		1D9EDBE007CEB3F522AF7A9D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C630EE2FF501B6188CA2626D /* Pods-OBST.debug.xcconfig */,
-				BEF66B2CC5499B07A9C9450E /* Pods-OBST.release.xcconfig */,
+				8CB573D5DB91F6206BA33637 /* Pods-OBST.debug.xcconfig */,
+				9C7EA0317501E36CE6F69EAE /* Pods-OBST.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 		5C6DFE581FE4F9DC00C25825 /* ObjectiveC Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9C7DD2ED1FE8D7320076C729 /* PinView */,
 				5C6DFE6E1FE5222E00C25825 /* ScrollView */,
 				5C6DFE6A1FE4FA7900C25825 /* KeyChain */,
 				5C6DFE591FE4FA4200C25825 /* Encryption Classes */,
@@ -201,10 +214,10 @@
 			name = Loader;
 			sourceTree = "<group>";
 		};
-		8E72A70BB501C737D77B6432 /* Frameworks */ = {
+		65740E1A3C41C82FC0D3B53D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF4AED565E650CD0874FF861 /* Pods_OBST.framework */,
+				6A211C6F39269CB05E595949 /* Pods_OBST.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -214,8 +227,8 @@
 			children = (
 				9C3428EC1FDFE94900572A2B /* OBST */,
 				9C3428EB1FDFE94900572A2B /* Products */,
-				41CAA209F1B877BCDC087326 /* Pods */,
-				8E72A70BB501C737D77B6432 /* Frameworks */,
+				1D9EDBE007CEB3F522AF7A9D /* Pods */,
+				65740E1A3C41C82FC0D3B53D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,6 +249,9 @@
 				9C3428ED1FDFE94900572A2B /* AppDelegate.swift */,
 				9C3428EF1FDFE94900572A2B /* ViewController.swift */,
 				9C83679A1FE78B2000CEE3FA /* OTPViewController.swift */,
+				9C8367AF1FE7C5DC00CEE3FA /* setPinViewController.swift */,
+				9C7DD2F41FE8EF250076C729 /* RegistrationSuccessVC.swift */,
+				9C7DD2F61FE8EFA40076C729 /* LoginViewController.swift */,
 				5C6DFE5A1FE4FA5B00C25825 /* OBST-Bridging-Header.h */,
 				9C3428F11FDFE94900572A2B /* Main.storyboard */,
 				9C3428F41FDFE94900572A2B /* Assets.xcassets */,
@@ -243,6 +259,17 @@
 				9C3428F91FDFE94900572A2B /* Info.plist */,
 			);
 			path = OBST;
+			sourceTree = "<group>";
+		};
+		9C7DD2ED1FE8D7320076C729 /* PinView */ = {
+			isa = PBXGroup;
+			children = (
+				9C7DD2EE1FE8D7640076C729 /* GSNoSelectionTextField.h */,
+				9C7DD2EF1FE8D7640076C729 /* GSNoSelectionTextField.m */,
+				9C7DD2F01FE8D7640076C729 /* GSPasswordInputView.h */,
+				9C7DD2F11FE8D7640076C729 /* GSPasswordInputView.m */,
+			);
+			name = PinView;
 			sourceTree = "<group>";
 		};
 		9C8367991FE788D300CEE3FA /* checkMark */ = {
@@ -260,12 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C3428FC1FDFE94900572A2B /* Build configuration list for PBXNativeTarget "OBST" */;
 			buildPhases = (
-				6E6E7277DD5AE943A52709E5 /* [CP] Check Pods Manifest.lock */,
+				641ECB4D593F97E49BC42CFF /* 📦 Check Pods Manifest.lock */,
 				9C3428E61FDFE94900572A2B /* Sources */,
 				9C3428E71FDFE94900572A2B /* Frameworks */,
 				9C3428E81FDFE94900572A2B /* Resources */,
-				E29031AC6AA3E908F2A964DC /* [CP] Embed Pods Frameworks */,
-				631AAC3F5678B78791E57C96 /* [CP] Copy Pods Resources */,
+				D5FDFECD786C93CCA255738C /* 📦 Embed Pods Frameworks */,
+				7537B812A1DD07210F888D63 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,14 +353,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		631AAC3F5678B78791E57C96 /* [CP] Copy Pods Resources */ = {
+		641ECB4D593F97E49BC42CFF /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7537B812A1DD07210F888D63 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,40 +383,15 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OBST/Pods-OBST-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6E6E7277DD5AE943A52709E5 /* [CP] Check Pods Manifest.lock */ = {
+		D5FDFECD786C93CCA255738C /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OBST-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E29031AC6AA3E908F2A964DC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-OBST/Pods-OBST-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/LUNField/LUNField.framework",
-				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LUNField.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -393,10 +410,13 @@
 				9C3428F01FDFE94900572A2B /* ViewController.swift in Sources */,
 				5C6DFE921FE54A8C00C25825 /* ObjC.swift in Sources */,
 				9C8367981FE788CF00CEE3FA /* Checkbox.swift in Sources */,
+				9C7DD2F21FE8D7640076C729 /* GSNoSelectionTextField.m in Sources */,
 				9C8367AE1FE794A800CEE3FA /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				5C6DFE561FE4F97100C25825 /* DataManager.swift in Sources */,
+				9C7DD2F31FE8D7640076C729 /* GSPasswordInputView.m in Sources */,
 				5C6DFE661FE4FA5C00C25825 /* KeyCode.m in Sources */,
 				5C6DFE6D1FE4FAB500C25825 /* JNKeychain.m in Sources */,
+				9C8367B01FE7C5DC00CEE3FA /* setPinViewController.swift in Sources */,
 				5C6DFE8B1FE54A8C00C25825 /* CircularGradientLayer.swift in Sources */,
 				9C8367AD1FE794A800CEE3FA /* TPKeyboardAvoidingTableView.m in Sources */,
 				9C83679B1FE78B2000CEE3FA /* OTPViewController.swift in Sources */,
@@ -413,7 +433,9 @@
 				5C6DFE8C1FE54A8C00C25825 /* LiquidCircleEffect.swift in Sources */,
 				5C6DFE8F1FE54A8C00C25825 /* LiquidLoader.swift in Sources */,
 				5C6DFE891FE54A8C00C25825 /* CGPointEx.swift in Sources */,
+				9C7DD2F51FE8EF250076C729 /* RegistrationSuccessVC.swift in Sources */,
 				5C6DFE541FE4F64B00C25825 /* ServerManager.swift in Sources */,
+				9C7DD2F71FE8EFA40076C729 /* LoginViewController.swift in Sources */,
 				5C6DFE8A1FE54A8C00C25825 /* CGRectEx.swift in Sources */,
 				5C6DFE8E1FE54A8C00C25825 /* LiquidLoadEffect.swift in Sources */,
 				9C3428EE1FDFE94900572A2B /* AppDelegate.swift in Sources */,
@@ -537,7 +559,7 @@
 		};
 		9C3428FD1FDFE94900572A2B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C630EE2FF501B6188CA2626D /* Pods-OBST.debug.xcconfig */;
+			baseConfigurationReference = 8CB573D5DB91F6206BA33637 /* Pods-OBST.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -555,7 +577,7 @@
 		};
 		9C3428FE1FDFE94900572A2B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEF66B2CC5499B07A9C9450E /* Pods-OBST.release.xcconfig */;
+			baseConfigurationReference = 9C7EA0317501E36CE6F69EAE /* Pods-OBST.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
