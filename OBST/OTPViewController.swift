@@ -62,6 +62,14 @@ class OTPViewController: UIViewController {
         
         //checkBox.addTarget(self, action: #selector(checkMarkValueChanged(sender:)), for: .valueChanged)
     }
+    
+    @IBAction func validateButtonClicked()
+    {
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let conformotpVC = storyboard.instantiateViewController(withIdentifier: "setPinIdentifier")
+        self.navigationController?.pushViewController(conformotpVC, animated: true)
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
